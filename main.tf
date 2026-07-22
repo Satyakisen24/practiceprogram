@@ -1,6 +1,6 @@
 resource "local_file" "games" {
   filename = "/home/Satyaki/favorite-games"
-  content  = "FIFA 21"
+  content  = "EFOOTBALL 27"
 }
 
 output "games" {
