@@ -1,0 +1,11 @@
+# Get the base image for Python 3.10 slim version
+FROM python:3.10-slim
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the requirements file into the container
+COPY report.py .
+
+# Install any dependencies specified in the requirements file
+CMD ["python", "report.py"]
