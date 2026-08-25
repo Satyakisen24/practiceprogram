@@ -1,5 +1,5 @@
-# Get the base image for Python 3.10 slim version
-FROM python:3.10-slim
+# Get the base image for Python 3.12 alpine version
+FROM python:3.12-alpine
 
 # Set the working directory inside the container
 WORKDIR /app
