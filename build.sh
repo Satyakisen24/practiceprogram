@@ -4,10 +4,6 @@ set -e
 
 echo "Starting build..."
 
-echo "Installing dependencies..."
-# commands here
-
-echo "Running tests..."
-# commands here
+python3 mysmallproject.py
 
 echo "Build completed successfully."
