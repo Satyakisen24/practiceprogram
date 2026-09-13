@@ -5,7 +5,12 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Build started'
-                python 'mysmallproject.py'
+            }
+        }
+
+        stage('Run Python') {
+            steps {
+                bat 'python mysmallproject.py'
             }
         }
     }
