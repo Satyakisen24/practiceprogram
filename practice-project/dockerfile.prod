@@ -1,0 +1,9 @@
+From ubuntu 17.0.1
+
+Run apt-get update && apt-get install -y python3 python3-pip
+
+copy requirements.txt /app/requirements.txt
+
+entrypoint ["python3"]
+
+cmd ["app.py"]

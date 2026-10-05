@@ -1,0 +1,22 @@
+pipeline{
+    agents any
+      
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building...'
+                // git 'https://github.com/example/repo.git'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing...'
+            }
+        }   
+        stage('Deploy') {
+            steps {
+                echo 'Deploying...'
+            }
+        }    
+    }
+}
